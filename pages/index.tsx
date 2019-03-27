@@ -1,5 +1,11 @@
 import styled from 'styled-components'
-const H1 = styled.h1`
-    color: red;
+
+const BlogCol = styled.div`
+    
 `
-export default () => <H1>Hallo</H1>
+export default () => (<BlogCol>
+    <h1>hello</h1>
+    <div>
+        this is a bumnch of stufrf
+    </div>
+</BlogCol>)
